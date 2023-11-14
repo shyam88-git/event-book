@@ -1,7 +1,6 @@
 // App.js
 import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Route ,Routes } from 'react-router-dom';
-import PrivateRoute from './util/PrivateRoute';
 import Home from './root/layout/home/Home';
 import FreeEvents from './events/free/FreeEvents';
 import ProEvents from './events/pro/ProEvents';
